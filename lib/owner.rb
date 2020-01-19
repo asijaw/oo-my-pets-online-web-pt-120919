@@ -1,5 +1,5 @@
 class Owner
-  attr_accessor :name
+  attr_reader :name
   attr_accessor :species
 
 
@@ -8,6 +8,6 @@ class Owner
   end
   
   def name
-    @name
+    @name = name
   end
 end 
