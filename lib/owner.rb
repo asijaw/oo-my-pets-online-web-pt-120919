@@ -30,6 +30,6 @@ class Owner
   
   def cats 
     cats = []
-   
+    if 
   end
 end 
