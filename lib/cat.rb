@@ -11,7 +11,7 @@ class Cat
   end
   
   def save
-    @@cats << self
+    @@all << self
   end 
   
   def self.all
