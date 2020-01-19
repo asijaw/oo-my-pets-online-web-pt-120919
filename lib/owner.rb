@@ -1,7 +1,7 @@
 class Owner
  attr_accessor :name
  
- Private
+ private
   def name
     @name = name
    end
