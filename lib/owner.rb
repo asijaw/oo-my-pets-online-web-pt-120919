@@ -1,8 +1,6 @@
 class Owner
   attr_reader :name, :species
-  
   @@all = []
-
 
   def initialize(name)
     @name = name
@@ -29,5 +27,4 @@ class Owner
   def self.reset_all
     @@all.clear
   end
-  
 end 
