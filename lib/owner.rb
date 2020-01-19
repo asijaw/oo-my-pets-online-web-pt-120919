@@ -7,7 +7,7 @@ class Owner
     @species = species
   end
   
-  # def name
-  #   @name = name
-  # end
+  def name
+    @name = name
+  end
 end 
