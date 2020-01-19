@@ -53,5 +53,5 @@ class Owner
   end 
   
   def sell_pets
-    pets = self.cats + self
+    pets = self.cats + self.cats
 end 
