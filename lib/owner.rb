@@ -3,7 +3,7 @@ class Owner
   attr_accessor :species
 
 
-  def initialize(species)
+  def initialize(name)
     @name = name
     @species = species
   end
