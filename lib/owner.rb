@@ -54,7 +54,7 @@ class Owner
   end 
   
   def sell_pets
-    pets = self.cats + self.cats
+    pets = self.cats + self.dogs
     binding.pry
     pets.each {|pet| pet.mood = "nervous"
       pet.owner = nil
