@@ -29,7 +29,6 @@ class Owner
   end
   
   def cats 
-    cats = []
-    if 
+    cats.all.select {|cat| cat.owner == self}
   end
 end 
