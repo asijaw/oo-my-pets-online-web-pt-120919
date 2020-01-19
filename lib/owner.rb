@@ -1,6 +1,8 @@
 class Owner
  attr_accessor :name
-  def initialize(name)
+ 
+ Private
+  def name
     @name = name
    end
  end 
