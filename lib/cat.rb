@@ -13,4 +13,8 @@ class Cat
   def save
     @@cats << self
   end 
+  
+  def cats
+    @@cats
+  end
 end
